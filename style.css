@@ -84,7 +84,7 @@
 }
 
 #skills {
-    background-image: url('/skills.png');
+    background-image: url('skills.png');
     font-family: 'Open Sans';
     padding: 20px;
     font-size: 30px;

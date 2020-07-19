@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+#hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: cornsilk;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: cornsilk;
+    margin-left: 0.02rem;
+    animation: blink 1s infinite
+}
+
+.cursor.typing{
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        background-color: cornsilk;
+    }
+    49% {
+        background-color: cornsilk;
+    }
+    50% {
+        background-color: transparent;
+    }
+    99% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: cornsilk;
+    }
+}
+
+.typed-text {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#myPic {
+    margin: 0 auto 0 auto;
+    display: block;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#intro {
+    padding-top: 100px;
+    align-content: center;
+    text-align: center;
+    height: 700px;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    background-color: rgba(226, 222, 222, 0.972);
+}
+
+.container {
+  height: 680px;
+  margin: 0 auto;
+  width: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
+  font-family: 'Open Sans';
+  font-size: 30px;
+}
+
+#about {
+    padding: 5px;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    background-color: #ffb0ae;
+}
+
+#skills {
+    background-image: url('/skills.png');
+    font-family: 'Open Sans';
+    padding: 20px;
+    font-size: 30px;
+}
+
+#projects {
+    background-color: #ffdfde;
+    font-size: 30px;
+    font-family: 'Open Sans';
+    padding: 20px;
+}
+
+.project1 {
+    background-color: #ff726e;
+    padding: 20px;
+}
+
+.project2 {
+    background-color: #ff9592;
+    padding: 20px;
+}
+
+.project3 {
+    background-color: #ffb6b4;
+    padding: 20px;
+}
+
+#contact {
+    background-color: ivory;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Open Sans';
+}
+
+.icons {
+    margin-right: 10px;
+}

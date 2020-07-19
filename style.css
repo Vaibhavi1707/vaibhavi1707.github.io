@@ -84,7 +84,8 @@
 }
 
 #skills {
-    background-image: url('skills.png');
+    background: rgb(252,229,21);
+    background: radial-gradient(circle, rgba(252,229,21,1) 0%, rgba(34,193,195,1) 80%);
     font-family: 'Open Sans';
     padding: 20px;
     font-size: 30px;

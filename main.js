@@ -2,7 +2,7 @@ window.onload = function () {
     Particles.init({
         selector: '.background',
         connectParticles: 'true',
-        color: '#ff4a4a',
+        color: '#e92d5e',
         maxParticles: 300
   });
 };

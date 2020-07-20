@@ -14,7 +14,7 @@ const cursors = document.getElementsByClassName('cursor');
 const cursor = cursors[0]
 
 const textArray = ['Hello World :)']
-const newTextDelay = 2000;
+const newTextDelay = 500;
 const newCharDelay = 200;
 const eraseCharDelay = 100;
 let textArrayIndex = 0;
